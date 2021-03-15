@@ -6,6 +6,9 @@ The program needs the host id, this can be obtained from looking at the hosts sc
 
 it took about 3 hours to make, that's why it's pretty buggy, altough it works like a charm
 
+Answers are 1-4 (mostly) From LEFT to RIGHT then TOP to BOTTOM
+
+also gives all acceptable answers for writting questions
 
 
 REALTIME KAHOOT
