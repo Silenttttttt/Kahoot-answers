@@ -11,6 +11,11 @@ Answers are 1-4 (mostly) From LEFT to RIGHT then TOP to BOTTOM
 also gives all acceptable answers for writting questions
 
 
+Link does not work if it's a https://kahoot.it/challenge/3d3c79a2-76fa-4d33-8ba9-9ea9ddd0788d_1616519649005
+
+This is because the answer order doesn't match up with the actual answers or something like that
+
+
 REALTIME KAHOOT
 
 https://play.kahoot.it/v2/gameblock?quizId=282539c1-6499-48f6-a023-12e97093ee71
