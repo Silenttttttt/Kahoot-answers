@@ -51,6 +51,16 @@ namespace KahootHelper
                         goodstrings = allstring[allstring.Length - 1].Split(',');
                         //   normalroom = false;
                     }
+                    else if(link.Contains("challenge/"))
+                    {
+                        roomid = link.Split("challenge/")[1];
+
+                        newlink = @"https://kahoot.it/rest/challenges/" + roomid + @"/answers";
+                        Client = new WebClient();
+
+                        allstring = Client.DownloadString(newlink).Split(",\"brainstorming\":[],");
+                        goodstrings = allstring[allstring.Length - 1].Split(',');
+                    }
                     else if (link.Contains("quizId="))
                     {
                         roomid = link.Split("quizId=")[1];
